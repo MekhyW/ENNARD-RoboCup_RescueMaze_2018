@@ -1,0 +1,36 @@
+  ReadCompass();
+  int TempCompass=Compass;
+  if(TempCompass<270){
+    while(Compass<TempCompass+90){
+      RotateRight(150);
+      ReadCompass();
+      Serial.println(Compass);
+    }
+  } else {
+    while(Compass>180 || Compass<TempCompass-270){
+      RotateRight(150);
+      ReadCompass();
+      Serial.println(Compass);
+    }
+  }
+  MotorsStop();
+
+
+
+
+ReadCompass();
+int TempCompass=Compass;
+if(TempCompass>90){
+  while(Compass>TempCompass-90){
+	RotateLeft(150);
+	ReadCompass();
+	Serial.println(Compass);
+  }
+} else {
+  while(Compass<180 || Compass>TempCompass+270){
+	RotateLeft(150);
+	ReadCompass();
+	Serial.println(Compass);
+  }
+}
+MotorsStop();
