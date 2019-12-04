@@ -1,0 +1,8 @@
+- introducao (robo passado e observacoes de ambito internacional)
+- estrutura e circuitos
+- controle e atuadores
+- sensores e sinalizacao
+- programacao
+- arena
+- conclusao (muito breve)
+- referencias
