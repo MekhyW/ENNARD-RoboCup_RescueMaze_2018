@@ -67,12 +67,6 @@ A few proof-of-concept videos were produced:
 
 ![robocupjr](oie_transparent-5.png)
 
-## Where to Find Me:
-
-* Email: felipe_catapano@yahoo.com.br
-* [Telegram Contact 🔵](https://t.me/mekhyw)
-* [Twitter Page 🐦](https://twitter.com/MekhyW)
-
 
 
 
